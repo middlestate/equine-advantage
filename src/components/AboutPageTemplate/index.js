@@ -51,7 +51,7 @@ const AboutPageTemplate = ({
                 <div className='tile is-5 is-parent is-paddingless'>
                   <div className='tile is-child'>
                     {/* Product Image */}
-                    <figure className='image '>
+                    <figure className='image has-shadow'>
                       <img style={{ paddingRight: 5, width: '80%' }} src={product_image} alt={subheading} />
                     </figure>
                   </div>

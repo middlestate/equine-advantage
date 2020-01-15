@@ -1,3 +1,4 @@
+/* eslint-disable space-before-function-paren */
 import React, { Component, Fragment } from 'react'
 import Helmet from 'react-helmet'
 import '../../assets/sass/styles.sass'
@@ -6,22 +7,27 @@ import config from '../../../config'
 // import Footer from '../Footer'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
-import { faMapMarkerAlt, faLink } from '@fortawesome/free-solid-svg-icons'
+import {
+  faMapMarkerAlt,
+  faLink,
+  faChevronLeft,
+  faChevronRight,
+} from '@fortawesome/free-solid-svg-icons'
 
-library.add(faLink, faEnvelope, faMapMarkerAlt)
+library.add(faLink, faEnvelope, faMapMarkerAlt, faChevronLeft, faChevronRight)
 
 class Layout extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
     this.state = { isActive: false }
     this.toggleNavbar = this.toggleNavbar.bind(this)
   }
 
-  toggleNavbar () {
+  toggleNavbar() {
     this.setState({ isActive: !this.state.isActive })
   }
 
-  render () {
+  render() {
     return (
       <Fragment>
         <Helmet>

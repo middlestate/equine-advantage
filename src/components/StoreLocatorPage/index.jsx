@@ -54,7 +54,7 @@ const Map = () => {
 
   return (
     <GoogleMap
-      defaultZoom={10}
+      defaultZoom={5}
       defaultCenter={{ lat, lng }}
     >
       {locationData().map(store => (

@@ -59,7 +59,7 @@ meta_desctiption: >
 | Calcium         | Max  |         4.5% | 20413 MG/LB |
 | Phosphorus      | Min. |         1.5% |  6804 MG/LB |
 | Sodium          | Min. |         0.5% |  2268 MG/LB |
-| Sodium          | Min. |         1.0% |  4536 MG/LB |
+| Sodium          | Max  |         1.0% |  4536 MG/LB |
 | Copper          | Min. |      200 PPM |  90.7 MG/LB |
 | Selenium, Added | Min. |      1.8 PPM |  0.81 MG/LB |
 | Selenium, Added | Max  |      2.3 PPM |  1.04 MG/LB |
