@@ -3,3 +3,5 @@ public
 .cache
 .env
 Bashrc
+.vscode
+yarn-error.log
