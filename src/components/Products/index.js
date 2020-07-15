@@ -21,7 +21,7 @@ const Products = ({ gridItems, logo }) => (
                   <div className='column is-12'>
                     <h3
                       className='is-size-5 has-text-ea-black is-Gilroy-black'
-                      style={{ paddingTop: 40 }}>
+                      style={{ marginTop: "4rem", paddingTop: 40 }}>
                       {item.name}
                     </h3>
                     <p
