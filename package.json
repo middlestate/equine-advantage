@@ -59,7 +59,7 @@
     "gatsby-remark-relative-images": "^0.2.2",
     "gatsby-source-filesystem": "^2.1.4",
     "gatsby-transformer-json": "^2.2.12",
-    "gatsby-transformer-remark": "^2.6.3",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.2.2",
     "lodash": "^4.17.14",
     "lodash-webpack-plugin": "^0.11.5",
